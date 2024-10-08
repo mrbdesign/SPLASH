@@ -73,7 +73,7 @@ function Header() {
         PIXEL WORLD
       </h1>
       <div className="mt-[12px]">
-        <span className="text-zinc-300 block text-3xl">Minting Nov. 1</span>
+        <span className="text-zinc-300 block text-3xl">Minting Nov. 11</span>
       </div>
       <p className="text-zinc-300 text-base mt-6">
         GOOD SMILE is GOOD STYLE 
