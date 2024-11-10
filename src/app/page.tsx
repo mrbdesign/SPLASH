@@ -15,46 +15,54 @@ export default function Home() {
 
         {/* Wrapper for Images with Captions */}
         <div className="flex flex-col md:flex-row justify-center mb-10 max-w-[500px] mx-auto">
-  <div className="flex flex-col items-center mb-8 md:mb-0">
-    <Image src="/brian.png" alt="Brian" width={100} height={100} className="object-cover" />
-    <p className="text-zinc-300 mt-2 text-center">
-      Mr.Brian Design<br />
-      Artist + Founder<br />
-      <a href="https://x.com/mrbriandesign" target="_blank" rel="noopener noreferrer" className="text-blue-500">@mrbriandesign</a>
-    </p>
-  </div>
-  <div className="flex flex-col items-center mb-8 md:mb-0 md:mx-8">
-    <Image src="/mina.png" alt="Mina" width={100} height={100} className="object-cover" />
-    <p className="text-zinc-300 mt-2 text-center">
-      Mina<br />
-      Media Advisor<br />
-      <a href="https://x.com/MinaShirinNYC" target="_blank" rel="noopener noreferrer" className="text-blue-500">@MinaShirinNYC</a>
-    </p>
-  </div>
-  <div className="flex flex-col items-center">
-    <Image src="/artsabide.png" alt="Arts Abide" width={100} height={100} className="object-cover" />
-    <p className="text-zinc-300 mt-2 text-center">
-      Arts Abide<br />
-      Developer<br />
-      <a href="https://x.com/ArtsAbide" target="_blank" rel="noopener noreferrer" className="text-blue-500">@ArtsAbide</a>
-    </p>
-  </div>
-</div>
+          <div className="flex flex-col items-center mb-8 md:mb-0">
+            <Image src="/brian.png" alt="Brian" width={100} height={100} className="object-cover" />
+            <p className="text-zinc-300 mt-2 text-center">
+              Mr.Brian Design<br />
+              Artist + Founder<br />
+              <a href="https://x.com/mrbriandesign" target="_blank" rel="noopener noreferrer" className="text-blue-500">@mrbriandesign</a>
+            </p>
+          </div>
+          <div className="flex flex-col items-center mb-8 md:mb-0 md:mx-8">
+            <Image src="/mina.png" alt="Mina" width={100} height={100} className="object-cover" />
+            <p className="text-zinc-300 mt-2 text-center">
+              Mina<br />
+              Media Advisor<br />
+              <a href="https://x.com/MinaShirinNYC" target="_blank" rel="noopener noreferrer" className="text-blue-500">@MinaShirinNYC</a>
+            </p>
+          </div>
+          <div className="flex flex-col items-center">
+            <Image src="/artsabide.png" alt="Arts Abide" width={100} height={100} className="object-cover" />
+            <p className="text-zinc-300 mt-2 text-center">
+              Arts Abide<br />
+              Developer<br />
+              <a href="https://x.com/ArtsAbide" target="_blank" rel="noopener noreferrer" className="text-blue-500">@ArtsAbide</a>
+            </p>
+          </div>
+        </div>
 
         {/* Move the button down by 100px instead of 300px */}
-        <div className="flex justify-center mb-20" style={{ marginTop: '100px' }}>
-  <a
-    href="https://pixel-world-mint.vercel.app"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-  >
-    Coming Soon!
-  </a>
-</div>
-</div>
-</main>
-);
+        <div className="flex gap-4 justify-center mb-20" style={{ marginTop: '100px' }}>
+          <a
+            href="https://pixel-world-mint.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            MINT NFTs
+          </a>
+          <a
+            href="https://pixelworld-staking.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Stake NFTs
+          </a>
+        </div>
+      </div>
+    </main>
+  );
 }
 
 function Header() {
@@ -76,11 +84,11 @@ function Header() {
         <span className="text-zinc-300 block text-3xl">Minting Nov. 11</span>
       </div>
       <p className="text-zinc-300 text-base mt-6">
-        GOOD SMILE is GOOD STYLE 
+        GOOD SMILE is GOOD STYLE
       </p>
       <p className="text-zinc-300 text-base mt-2">
         500 boys + 500 girls, 32 x 32 px format, based on: <br />
-        ‘LITTLE WORLD PFPs’ by Mr.Brian Design
+        'LITTLE WORLD PFPs' by Mr.Brian Design
       </p>
     </header>
   );
