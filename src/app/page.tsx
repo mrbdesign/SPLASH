@@ -89,7 +89,7 @@ function Header() {
       </p>
       <p className="text-zinc-300 text-base mt-2">
         500 boys + 500 girls, 32 x 32 px format, based on: <br />
-        'LITTLE WORLD PFPs' by Mr.Brian Design
+        &apos;LITTLE WORLD PFPs&apos; by Mr.Brian Design
       </p>
     </header>
   );
