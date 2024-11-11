@@ -41,26 +41,6 @@ export default function Home() {
             </p>
           </div>
         </div>
-
-        {/* Move the button down by 100px instead of 300px */}
-        <div className="flex gap-4 justify-center mb-20" style={{ marginTop: '100px' }}>
-          <a
-            href="https://pixel-world-mint.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          >
-            MINT NFTs
-          </a>
-          <a
-            href="https://pixelworld-staking.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          >
-            Stake NFTs
-          </a>
-        </div>
       </div>
     </main>
   );
@@ -84,6 +64,27 @@ function Header() {
       <div className="mt-[12px]">
         <span className="text-zinc-300 block text-3xl">Minting Nov. 11</span>
       </div>
+      
+      {/* Buttons moved here */}
+      <div className="flex gap-4 justify-center mt-6 mb-6">
+        <a
+          href="https://pixel-world-mint.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          MINT NFTs
+        </a>
+        <a
+          href="https://pixelworld-staking.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        >
+          Stake NFTs
+        </a>
+      </div>
+
       <p className="text-zinc-300 text-base mt-6">
         GOOD SMILE is GOOD STYLE
       </p>
