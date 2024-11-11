@@ -1,5 +1,5 @@
 "use client";
-
+// Pixel World Landing Page - Updated with Mint and Stake buttons
 import Image from "next/image";
 
 export default function Home() {
