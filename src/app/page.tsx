@@ -11,7 +11,7 @@ export default function Home() {
         {/* Buttons Section */}
         <div className="flex justify-center gap-4 mb-8" style={{ marginTop: '50px' }}>
           <a
-            href="https://pixel-world-mint.vercel.app"
+            href="https://pixelworld-staking.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
@@ -19,7 +19,7 @@ export default function Home() {
             Mint NFT
           </a>
           <a
-            href="https://mint.mrbd-pixel.world/"
+            href="https://pixelworld-staking.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
