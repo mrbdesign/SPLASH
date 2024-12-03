@@ -9,7 +9,7 @@ export default function Home() {
         <Header />
 
         {/* Buttons Section */}
-        <div className="flex justify-center gap-4 mb-8" style={{ marginTop: '50px' }}>
+        <div className="flex justify-center gap-4 mb-16" style={{ marginTop: '20px' }}>
           <a
             href="https://pixel-world-mint.vercel.app/"
             target="_blank"
@@ -92,7 +92,7 @@ function Header() {
         <span className="text-zinc-300 block text-3xl">Minting Nov. 11</span>
       </div>
       <p className="text-zinc-300 text-base mt-6">
-        GOOD SMILE is GOOD STYLE 
+        GOOD SMILE is GOOD STYLE
       </p>
       <p className="text-zinc-300 text-base mt-2">
         500 boys + 500 girls, 32 x 32 px format, based on: <br />
