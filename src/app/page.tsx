@@ -36,11 +36,6 @@ export default function Home() {
           </a>
         </div>
 
-        {/* Buy PERKS Text */}
-        <div className="mt-12 mb-8 text-zinc-300 text-4xl font-bold">
-          BUY PERX
-        </div>
-
         {/* Team Section */}
         <div className="mt-6 mb-10 text-zinc-300 text-4xl font-bold">
           The Team
