@@ -79,8 +79,8 @@ function Header() {
       <Image
         src="/PIXEL-WORLD-TEASER.gif"
         alt="Pixel World Teaser"
-        width={512}
-        height={512}
+        width={400}
+        height={400}
         style={{
           filter: "drop-shadow(0px 0px 24px #0)",
         }}
@@ -88,16 +88,9 @@ function Header() {
       <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter">
         PIXEL WORLD
       </h1>
-      <div className="mt-[12px]">
-        <span className="text-zinc-300 block text-3xl">Minting Nov. 11</span>
-      </div>
-      <p className="text-zinc-300 text-base mt-6">
-        GOOD SMILE is GOOD STYLE
-      </p>
-      <p className="text-zinc-300 text-base mt-2">
-        500 boys + 500 girls, 32 x 32 px format, based on: <br />
-        LITTLE WORLD PFPs by Mr.Brian Design
-      </p>
+      
+      
+    
     </header>
   );
 }
