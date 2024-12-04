@@ -34,6 +34,14 @@ export default function Home() {
           >
             Market Place
           </a>
+          <a
+            href="https://www.mrbriandesign.com/mint"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+          >
+            BUY PERX
+          </a>
         </div>
 
         {/* Team Section */}
@@ -88,9 +96,6 @@ function Header() {
       <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter">
         PIXEL WORLD
       </h1>
-      
-      
-    
     </header>
   );
 }
