@@ -49,7 +49,7 @@ export default function Home() {
             <p className="text-zinc-300 mt-2 text-center">
               Mina Shirin<br />
               AI Agent<br />
-              <a href="https://x.com/MinaShirinNYC" target="_blank" rel="noopener noreferrer" className="text-blue-500">@MinaShirinNYC</a>
+              <a href="https://x.com/PixelWorldMina" target="_blank" rel="noopener noreferrer" className="text-blue-500">@MinaShirinNYC</a>
             </p>
           </div>
 
