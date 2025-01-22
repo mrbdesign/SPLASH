@@ -7,24 +7,16 @@ export default function Home() {
     <main className="p-4 pb-10 min-h-[100vh] flex items-center justify-center container max-w-screen-lg mx-auto">
       <div className="py-20 text-center">
         <Header />
-
+        
         {/* Buttons Section */}
-        <div className="flex justify-center gap-4 mb-16" style={{ marginTop: '20px' }}>
-          <a
-            href="https://pixel-world-mint.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          >
-            Mint NFT
-          </a>
+        <div className="flex justify-center gap-4 mb-16">
           <a
             href="https://stake-pixel.world"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Stake NFT
+            Unstake NFT
           </a>
           <a
             href="https://trade-pixel.world"
@@ -33,14 +25,6 @@ export default function Home() {
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
             Market Place
-          </a>
-          <a
-            href="https://www.mrbriandesign.com/mint"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-          >
-            BUY PERX
           </a>
         </div>
 
@@ -59,6 +43,7 @@ export default function Home() {
               <a href="https://x.com/mrbriandesign" target="_blank" rel="noopener noreferrer" className="text-blue-500">@mrbriandesign</a>
             </p>
           </div>
+
           <div className="flex flex-col items-center mb-8 md:mb-0 md:mx-8">
             <Image src="/mina.png" alt="Mina" width={100} height={100} className="object-cover" />
             <p className="text-zinc-300 mt-2 text-center">
@@ -67,6 +52,7 @@ export default function Home() {
               <a href="https://x.com/MinaShirinNYC" target="_blank" rel="noopener noreferrer" className="text-blue-500">@MinaShirinNYC</a>
             </p>
           </div>
+
           <div className="flex flex-col items-center">
             <Image src="/artsabide.png" alt="Arts Abide" width={100} height={100} className="object-cover" />
             <p className="text-zinc-300 mt-2 text-center">
@@ -83,7 +69,7 @@ export default function Home() {
 
 function Header() {
   return (
-    <header className="flex flex-col items-center mb-20 md:mb-20 bg-black text-white p-4 text-center">
+    <header className="flex flex-col items-center mb-6 bg-black text-white p-4 text-center">
       <Image
         src="/PIXEL-WORLD-TEASER.gif"
         alt="Pixel World Teaser"
@@ -93,9 +79,16 @@ function Header() {
           filter: "drop-shadow(0px 0px 24px #0)",
         }}
       />
-      <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter">
+      <h1 className="text-2xl md:text-6xl font-semibold md:font-bold tracking-tighter mb-8">
         PIXEL WORLD
       </h1>
+      <Image
+        src="/SOLD-OUT.png"
+        alt="Sold Out"
+        width={400}
+        height={200}
+        className="mb-8"
+      />
     </header>
   );
 }
