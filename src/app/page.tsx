@@ -48,7 +48,7 @@ export default function Home() {
             <Image src="/mina.png" alt="Mina" width={100} height={100} className="object-cover" />
             <p className="text-zinc-300 mt-2 text-center">
               Mina Shirin<br />
-              Media Advisor<br />
+              AI Agent<br />
               <a href="https://x.com/MinaShirinNYC" target="_blank" rel="noopener noreferrer" className="text-blue-500">@MinaShirinNYC</a>
             </p>
           </div>
