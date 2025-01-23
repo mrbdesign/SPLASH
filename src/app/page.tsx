@@ -47,7 +47,7 @@ export default function Home() {
           <div className="flex flex-col items-center mb-8 md:mb-0 md:mx-8">
             <Image src="/mina.png" alt="Mina" width={100} height={100} className="object-cover" />
             <p className="text-zinc-300 mt-2 text-center">
-              Mina Shirin<br />
+              Mina<br />
               AI Agent<br />
               <a href="https://x.com/PixelWorldMina" target="_blank" rel="noopener noreferrer" className="text-blue-500">@MinaShirinNYC</a>
             </p>
